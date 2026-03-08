@@ -1,0 +1,20 @@
+[project]
+name = "chn-stat"
+version = "0.1.0"
+description = "Proxy wage trend chart generation for China by education level"
+readme = "README.md"
+authors = [
+    { name = "qute-lj", email = "qute_lj@163.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "akshare>=1.18.35",
+    "matplotlib>=3.10.8",
+]
+
+[project.scripts]
+chn-stat = "chn_stat:main"
+
+[build-system]
+requires = ["uv_build>=0.10.8,<0.11.0"]
+build-backend = "uv_build"

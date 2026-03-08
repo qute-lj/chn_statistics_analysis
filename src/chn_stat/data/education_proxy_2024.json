@@ -1,0 +1,50 @@
+{
+  "report_title": "2024年全国毕业生起点薪酬报告",
+  "source_url": "https://max.book118.com/html/2024/0707/7032001101006131.shtm",
+  "source_note": "Publicly indexed text preview of a 2024 graduate salary report page. Used only to calibrate relative spacing between education groups.",
+  "cohort_note": "The report covers 2023 graduates and reflects recruitment-market starting pay rather than the entire employed population.",
+  "company_types": [
+    "state_owned",
+    "foreign_owned",
+    "joint_venture",
+    "local_private"
+  ],
+  "education_levels": {
+    "college": {
+      "zh_label": "大专",
+      "salaries": {
+        "state_owned": 5141,
+        "foreign_owned": 5687,
+        "joint_venture": 5302,
+        "local_private": 4599
+      }
+    },
+    "bachelor": {
+      "zh_label": "本科",
+      "salaries": {
+        "state_owned": 5508,
+        "foreign_owned": 6888,
+        "joint_venture": 6119,
+        "local_private": 4998
+      }
+    },
+    "master": {
+      "zh_label": "硕士研究生",
+      "salaries": {
+        "state_owned": 6811,
+        "foreign_owned": 6948,
+        "joint_venture": 8690,
+        "local_private": 7650
+      }
+    },
+    "doctor": {
+      "zh_label": "博士研究生",
+      "salaries": {
+        "state_owned": 9938,
+        "foreign_owned": 13278,
+        "joint_venture": 12343,
+        "local_private": 10592
+      }
+    }
+  }
+}

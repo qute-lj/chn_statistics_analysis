@@ -1,0 +1,156 @@
+{
+  "series_name": "NBS urban wage bulletins",
+  "notes": [
+    "2016-2022 values come from separate NBS private and non-private annual wage bulletins.",
+    "2023-2024 values come from combined NBS annual wage bulletins that also publish a scale-above-enterprise benchmark."
+  ],
+  "years": [
+    {
+      "year": 2016,
+      "non_private": {
+        "value": 67569,
+        "title": "2016年城镇非私营单位就业人员年平均工资67569元",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899525.html",
+        "doc_date": "2017-05-27"
+      },
+      "private": {
+        "value": 42833,
+        "title": "2016年城镇私营单位就业人员年平均工资42833元",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899526.html",
+        "doc_date": "2017-05-27"
+      }
+    },
+    {
+      "year": 2017,
+      "non_private": {
+        "value": 74318,
+        "title": "2017年城镇非私营单位就业人员年平均工资74318元",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899943.html",
+        "doc_date": "2018-05-15"
+      },
+      "private": {
+        "value": 45761,
+        "title": "2017年城镇私营单位就业人员年平均工资45761元",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899944.html",
+        "doc_date": "2018-05-15"
+      }
+    },
+    {
+      "year": 2018,
+      "non_private": {
+        "value": 82461,
+        "title": "2018年城镇非私营单位就业人员年平均工资82461元",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900311.html",
+        "doc_date": "2019-05-14"
+      },
+      "private": {
+        "value": 49575,
+        "title": "2018年城镇私营单位就业人员年平均工资49575元",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900312.html",
+        "doc_date": "2019-05-14"
+      }
+    },
+    {
+      "year": 2019,
+      "non_private": {
+        "value": 90501,
+        "title": "2019年城镇非私营单位就业人员年平均工资90501元",
+        "url": "http://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202005/t20200515_1767714.html",
+        "doc_date": "2020-05-15"
+      },
+      "private": {
+        "value": 53604,
+        "title": "2019年城镇私营单位就业人员年平均工资53604元",
+        "url": "http://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202005/t20200515_1767713.html",
+        "doc_date": "2020-05-15"
+      }
+    },
+    {
+      "year": 2020,
+      "non_private": {
+        "value": 97379,
+        "title": "2020年城镇非私营单位就业人员年平均工资97379元",
+        "url": "http://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202105/t20210519_1817689.html",
+        "doc_date": "2021-05-19"
+      },
+      "private": {
+        "value": 57727,
+        "title": "2020年城镇私营单位就业人员年平均工资57727元",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901109.html",
+        "doc_date": "2021-05-19"
+      }
+    },
+    {
+      "year": 2021,
+      "non_private": {
+        "value": 106837,
+        "title": "2021年城镇非私营单位就业人员年平均工资106837元",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901472.html",
+        "doc_date": "2022-05-20"
+      },
+      "private": {
+        "value": 62884,
+        "title": "2021年城镇私营单位就业人员年平均工资62884元",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901473.html",
+        "doc_date": "2022-05-20"
+      }
+    },
+    {
+      "year": 2022,
+      "non_private": {
+        "value": 114029,
+        "title": "2022年城镇非私营单位就业人员年平均工资114029元",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230509_1939290.html",
+        "doc_date": "2023-05-09"
+      },
+      "private": {
+        "value": 65237,
+        "title": "2022年城镇私营单位就业人员年平均工资65237元",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202305/t20230509_1939295.html",
+        "doc_date": "2023-05-09"
+      }
+    },
+    {
+      "year": 2023,
+      "non_private": {
+        "value": 120698,
+        "title": "2023年城镇单位就业人员年平均工资情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202405/t20240520_1950434.html",
+        "doc_date": "2024-05-17"
+      },
+      "private": {
+        "value": 68340,
+        "title": "2023年城镇单位就业人员年平均工资情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202405/t20240520_1950434.html",
+        "doc_date": "2024-05-17"
+      },
+      "scale_above_enterprise": {
+        "value": 98096,
+        "title": "2023年城镇单位就业人员年平均工资情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202405/t20240520_1950434.html",
+        "doc_date": "2024-05-17"
+      }
+    },
+    {
+      "year": 2024,
+      "non_private": {
+        "value": 124110,
+        "title": "2024年城镇单位就业人员年平均工资情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202505/t20250516_1959826.html",
+        "doc_date": "2025-05-16"
+      },
+      "private": {
+        "value": 69476,
+        "title": "2024年城镇单位就业人员年平均工资情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202505/t20250516_1959826.html",
+        "doc_date": "2025-05-16"
+      },
+      "scale_above_enterprise": {
+        "value": 102452,
+        "title": "2024年城镇单位就业人员年平均工资情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202505/t20250516_1959826.html",
+        "doc_date": "2025-05-16"
+      }
+    }
+  ]
+}
