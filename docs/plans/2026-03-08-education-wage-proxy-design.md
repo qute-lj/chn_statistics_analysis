@@ -73,6 +73,24 @@ and private wages:
 
 This keeps all time variation anchored to official yearly wage data.
 
+### 4. Relative index details
+
+The final implementation uses these explicit quantities:
+
+- blend weight: `w = 0.5866989301513226`
+- 2024 reference factors:
+  - `大专 = 0.881597414196402`
+  - `本科 = 1.0`
+  - `硕士研究生 = 1.2801003700080806`
+  - `博士研究生 = 1.962786543614171`
+
+For each year `t`:
+
+- `synthetic_baseline_t = w * non_private_t + (1 - w) * private_t`
+- `gap_scale_t = ((non_private_t / private_t) - 1) / ((non_private_2024 / private_2024) - 1)`
+- the yearly education factor is scaled from the 2024 reference factor by `gap_scale_t`
+- the yearly proxy wage is `synthetic_baseline_t * factor_t`
+
 ## Output
 
 The implementation will generate:
