@@ -1,0 +1,12 @@
+{
+  "jobs": [
+    {
+      "source": "chfs",
+      "survey_year": 2023,
+      "path": "data/raw/chfs/replace-with-your-file.csv",
+      "education_column": "replace_with_education_column",
+      "annual_wage_column": "replace_with_annual_wage_column",
+      "education_mapping": {}
+    }
+  ]
+}

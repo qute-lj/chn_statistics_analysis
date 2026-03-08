@@ -1,0 +1,12 @@
+{
+  "jobs": [
+    {
+      "source": "cfps",
+      "survey_year": 2020,
+      "path": "data/raw/cfps/replace-with-your-file.csv",
+      "education_column": "replace_with_education_column",
+      "annual_wage_column": "replace_with_annual_wage_column",
+      "education_mapping": {}
+    }
+  ]
+}

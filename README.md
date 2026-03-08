@@ -19,6 +19,19 @@ challenge during implementation. The project therefore uses:
 This is suitable for visualization and directional comparison, not for claiming
 exact official NBS wage levels by education.
 
+## Research-grade survey sources
+
+The repository now also tracks a harder, survey-based path built around official
+`CFPS` and `CHFS` source programs. That path is intentionally separate from the
+proxy workflow above:
+
+- `proxy path`: multi-year official wage bulletins plus a documented education
+  proxy
+- `survey path`: manually downloaded official microdata placed locally and
+  processed as survey-year analysis
+
+See [docs/hard-data-sources.md](/home/qute_lj/wsl_workspace/CapsuleEverything/202603/chn_stat/docs/hard-data-sources.md) for the official source links, access constraints, and raw-data directory contract.
+
 ## Data sources and proxy index
 
 ### Data sources actually used
@@ -124,6 +137,31 @@ Print the saved source URLs:
 
 ```bash
 uv run python scripts/show_proxy_sources.py
+```
+
+Inspect whether locally downloaded `CFPS` or `CHFS` files are available:
+
+```bash
+uv run python scripts/inspect_survey_inputs.py
+```
+
+Profile one locally downloaded survey file and infer likely education/income
+columns:
+
+```bash
+uv run python scripts/profile_survey_file.py data/raw/cfps/<your-file>
+```
+
+Run a mapping-configured survey-year wage summary:
+
+```bash
+uv run python scripts/build_survey_year_summary.py configs/surveys/cfps.template.json
+```
+
+Generate a first-pass mapping suggestion from one raw survey file:
+
+```bash
+uv run python scripts/suggest_survey_job.py cfps data/raw/cfps/<your-file>
 ```
 
 Run tests:
